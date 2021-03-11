@@ -30,7 +30,7 @@ optional arguments:
                         The default value is the same as the -s1_dir parameter
   -s2_name S2_NAME      Sample 2 name which will be used in the output plots.
                         The default value is the same as the -s2_dir parameter
-  -mmincount MMINCOUNT  The minimal count of motif appearences to compute
+  -mmincount MMINCOUNT  The minimal count of motif occurrences to compute
                         statistics. The default value is 100
   -min_effectsize MIN_EFFECTSIZE
                         The minimal Cohen's effect size to plot signal
