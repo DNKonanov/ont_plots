@@ -4,8 +4,11 @@
 * Python >3.6
 * `h5py`, `numpy`, `matplotlib` Python libraries
 * [Tombo](https://github.com/nanoporetech/tombo) software
-
+* [ont_fast5_api](https://github.com/nanoporetech/ont_fast5_api)
 ### Manual
+
+First, you should resquiggle you fast5 files using Tombo. Next you should convert single-fast5 reads to multi-fast5 with `single_to_multi_fast5` tool.
+
 ```
 usage: start_script.py [-h] -s1_dir S1_DIR -s2_dir S2_DIR [-maxreads MAXREADS] [-savepath SAVEPATH] [-mlen MLEN] [-s1_name S1_NAME] [-s2_name S2_NAME]` ```[-mmincount MMINCOUNT] [-min_effectsize MIN_EFFECTSIZE]
 
