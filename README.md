@@ -22,7 +22,7 @@ optional arguments:
   -s2_dir S2_DIR        path to sample2 multi-fast5 files
   -maxreads MAXREADS    The maximum of observed reads count for each sample.
                         The default value is 8000
-  -savepath SAVEPATH    An output directory. The default value is "Motifes" in
+  -savepath SAVEPATH    An output directory. The default value is "Motifs" in
                         the current directory
   -mlen MLEN            Motifs length. The default (and recommended) value is
                         6
