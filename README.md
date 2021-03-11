@@ -34,6 +34,6 @@ optional arguments:
                         statistics. The default value is 100
   -min_effectsize MIN_EFFECTSIZE
                         The minimal Cohen's effect size to plot signal
-                        distributions.The default value is 0.5
+                        distributions.The default value is 0.3
   -noplot               Flag to disable plotting
 ```
