@@ -17,7 +17,7 @@ parser.add_argument('-s1_name', default=None, type=str, help='Sample 1 name whic
 parser.add_argument('-s2_name', default=None, type=str, help='Sample 2 name which will be used in the output plots. The default value is the same as the -s2_dir parameter')
 parser.add_argument('-mmincount', default=100, type=int, help='The minimal count of motif appearences to compute statistics. The default value is 100')
 parser.add_argument('-min_effectsize', default=0.3, type=float, help='The minimal Cohen\'s effect size to plot signal distributions.The default value is 0.5')
-parser.add_argument('-noplot', action='store_false')
+parser.add_argument('-noplot', action='store_false', help='Flag to disable plotting')
 args = parser.parse_args()
 
 
