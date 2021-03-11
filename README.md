@@ -37,3 +37,13 @@ optional arguments:
                         distributions.The default value is 0.3
   -noplot               Flag to disable plotting
 ```
+
+### Example
+
+Suppose that `example/left_multi/` and `example/right_multi/` are two fast5 folders containing objects of interest.
+
+The shortest way to find the difference between objects and plot results is
+
+`python start_script.py -s1_dir example/left_multi/ -s2_dir example/right_multi/ -savepath example/Motifs`
+
+The results of this command are presented in `example` folder.
