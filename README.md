@@ -1,4 +1,4 @@
-# Snapper
+# ONT-plots
 
 ### Dependencies
 * Python >3.6
